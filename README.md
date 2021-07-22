@@ -7,6 +7,9 @@ HTML
 
 ## Iniciar Projeto
 - Clone o repositório para sua maquina 
+```bash
+git clone <linkdorepositório>
+```
 - Depois no console insira
 ```bash
 npx serve
