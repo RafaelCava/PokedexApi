@@ -38,6 +38,28 @@
                 <p>Ditto</p>
             </div>
         </div><!-- pokemon-boxes -->
+        <ul>
+
+        </ul>
     </main>
+
+    <script>
+        const list = document.querySelector('ul')
+
+        async function data (){
+            const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10')
+            const json = await response.json();
+            console.log(json.results);
+            json.results.forEach(item => {
+                list.innerHTML = `
+                    <l1>${item.name}${item.name}</l1>
+                    <h1>vai</h1>
+                `
+            })
+        }
+        data()
+
+    </script>
+
 </body>
 </html>
