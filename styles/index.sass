@@ -19,3 +19,33 @@ body
             size: 2.3em
         text-align: center
         color: #ef5350
+    .pokemon-boxes
+        margin: 20px 0
+        display: flex
+        flex: 
+            wrap: wrap
+        .pokemon-box
+            border: 
+                radius: 10px
+            width: 29%
+            margin: 20px 2%
+            background-color: rgb(230,230,230)
+            img
+                width: 100%
+            p
+                color: #000
+                font: 
+                    size: 1.1em
+                text-align: center
+                padding: 10px 0
+
+@media screen and ( max-width: 768px )
+    .main
+        .pokemon-boxes
+            .pokemon-box
+                width: 100%
+                text-align: center
+                img
+                    max-width: 300px
+
+    
