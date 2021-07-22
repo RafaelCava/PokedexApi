@@ -19,6 +19,7 @@ input.addEventListener('keydown', (event)=>{
                     <p><strong>${val.name}</strong></p>
                     <p>${pokemonSingle.height}m</p>
                     <p>${pokemonSingle.weight}kg</p>
+                    <p>Principais Habilidades:</p>
                     <ul>
                         ${pokemonSingle.abilities.map(val=> {
                             return `<li>${val.ability.name}</li>`
