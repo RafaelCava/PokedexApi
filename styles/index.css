@@ -21,8 +21,10 @@ body {
     display: flex;
     flex-wrap: wrap; }
     .main .pokemon-boxes .pokemon-box {
+      padding: 10px 0 20px;
       border-radius: 10px;
       width: 29%;
+      height: 100%;
       margin: 20px 2%;
       background-color: #e6e6e6; }
       .main .pokemon-boxes .pokemon-box img {
@@ -32,6 +34,9 @@ body {
         font-size: 1.1em;
         text-align: center;
         padding: 10px 0; }
+      .main .pokemon-boxes .pokemon-box ul {
+        list-style-type: none;
+        text-align: center; }
 
 input {
   width: 100%;
