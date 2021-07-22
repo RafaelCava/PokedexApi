@@ -12,54 +12,10 @@
 <body>
     <main class="main">
         <h2>Pokedex</h2>
+        <input type="number" placeholder="Quantos pokemons você quer ?">
         <div class="pokemon-boxes">
-            <div class="pokemon-box">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="ditto">
-                <p>Ditto</p>
-            </div>
-            <div class="pokemon-box">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="ditto">
-                <p>Ditto</p>
-            </div>
-            <div class="pokemon-box">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="ditto">
-                <p>Ditto</p>
-            </div>
-            <div class="pokemon-box">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="ditto">
-                <p>Ditto</p>
-            </div>
-            <div class="pokemon-box">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="ditto">
-                <p>Ditto</p>
-            </div>
-            <div class="pokemon-box">
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="ditto">
-                <p>Ditto</p>
-            </div>
         </div><!-- pokemon-boxes -->
-        <ul>
-
-        </ul>
     </main>
-
-    <script>
-        const list = document.querySelector('ul')
-
-        async function data (){
-            const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10')
-            const json = await response.json();
-            console.log(json.results);
-            json.results.forEach(item => {
-                list.innerHTML = `
-                    <l1>${item.name}${item.name}</l1>
-                    <h1>vai</h1>
-                `
-            })
-        }
-        data()
-
-    </script>
-
+    <script src="/scripts/script.js"></script>
 </body>
 </html>

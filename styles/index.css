@@ -33,6 +33,13 @@ body {
         text-align: center;
         padding: 10px 0; }
 
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: 0; }
+
 @media screen and (max-width: 768px) {
   .main .pokemon-boxes .pokemon-box {
     width: 100%;
