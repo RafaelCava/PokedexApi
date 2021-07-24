@@ -1,9 +1,9 @@
 # Projeto Pokedex
 
 ## Tecnologias usadas:
-JavaScript Vanila
-Sass
-HTML
+- JavaScript Vanila
+- Sass
+- HTML
 
 ## Iniciar Projeto
 - Clone o repositório para sua maquina 
