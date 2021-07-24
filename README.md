@@ -14,3 +14,7 @@ git clone <linkdorepositório>
 ```bash
 npx serve
 ```
+
+## Preview
+
+![image](/assets/pokedex-img.png)
