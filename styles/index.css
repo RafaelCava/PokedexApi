@@ -19,7 +19,8 @@ body {
   .main .pokemon-boxes {
     margin: 20px 0;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: stretch; }
     .main .pokemon-boxes .pokemon-box {
       padding: 10px 0 20px;
       border-radius: 10px;
